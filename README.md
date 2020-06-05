@@ -36,4 +36,5 @@ import {
 ### 已实现功能  
 HashRouter,Switch,Route,Link,Redirect组件，通过 react context 从跟组件HashRouter传递history,match,location。实现这三个属性中的部分属性。
 
-没有实现withRouter,historyRouter  
+### 没有实现
+withRouter,historyRouter,Route组件的render,children方法

@@ -44,7 +44,6 @@ function Page2() {
 }
 
 function SubPage1(props) {
-  console.log(props, "props");
   return <h4>subpage1</h4>;
 }
 function SubPage2() {
