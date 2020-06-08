@@ -20,7 +20,8 @@ class Route extends PureComponent {
             
               let keys = [];
               // 根据path实现一个正则，匹配
-              let reg = pathToReg(path, keys, {end:exact});
+              let reg = pathToReg(path, keys, { end: exact });
+              
               // keys = keys.map(item=>item.name)
               let result = pathname.match(reg);
  
